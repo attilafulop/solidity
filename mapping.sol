@@ -13,7 +13,7 @@ contract exerciseMapping {
     
     function addMovie(uint id, string memory name, string memory director) public {
         
-        movies[id] = Movie(title, director);
+        movies[id] = Movie(name, director);
         
     }
     
